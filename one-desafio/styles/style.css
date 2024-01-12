@@ -1,0 +1,60 @@
+:root {
+	--dark-10: #121214;
+	--dark-20: #17171A;
+	--dark-30: #202014;
+	--dark-40: #201f24;
+	--dark-50: #AFABB6;
+	--brand-color: #E07B67;
+}
+
+* {
+	font-family: 'Inter', sans-serif;
+font-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+
+	background: var(--dark-10);
+}
+
+header {
+	background: var(--dark-20);
+}
+
+input {
+	font-family:Inter ;
+	font-weight: 500;
+	background: var(--dark-40);
+}
+
+body {
+  --sb-track-color: #232E33;
+  --sb-thumb-color: #806e56;
+  --sb-size: 10px;
+
+  scrollbar-color: var(--sb-thumb-color) 
+                   var(--sb-track-color);
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size) 
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 10px;
+  
+  }
+span {
+	color: var(--brand-color);
+}
+
+.card {
+	background: var(--dark-40);
+}
+
