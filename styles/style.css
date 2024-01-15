@@ -1,0 +1,23 @@
+:root {
+	--brand-color: #846AFF;
+	--dark-10: #121214;
+	--dark-20: #F3F7FF;
+	--dark-30: #F8F8FF;
+	--dark-40: #F9F9F9;
+	--dark-50: #FFFFFF;
+}
+body {
+	overflow-x: hidden;
+	background: var(--dark-30);
+}
+* {
+	font-family: 'Inter', sans-serif;
+font-family: 'Sen', sans-serif;
+
+}
+.texto {
+	font-family: Inter;
+}
+button {
+	background: var(--dark-50);
+}
